@@ -33,11 +33,19 @@
           <li>
           {{- if lt ( add $i 1 ) $length -}}
             <a href='{{- $crumb.RelPermalink -}}'>
-              {{- $crumb.LinkTitle -}}
+              {{- if eq $crumb.Kind "home" -}}
+                {{ i18n "home" }}
+              {{- else -}}
+                {{- $crumb.LinkTitle -}}
+              {{- end -}}
             </a>
           {{- else -}}
             <span>
-              {{- $crumb.LinkTitle -}}
+              {{- if eq $crumb.Kind "home" -}}
+                {{ i18n "home" }}
+              {{- else -}}
+                {{- $crumb.LinkTitle -}}
+              {{- end -}}
             </span>
           {{- end -}}
           </li>
@@ -48,11 +56,9 @@
 {{- end -}}
 
 {{- $scratch := newScratch -}}
-
 {{- $scratch.Set "crumbs" ( slice . ) -}}
 {{- template "breadcrumbs_add_parents" ( dict "Config" $config "Page" . "Scratch" $scratch ) -}}
 {{- if ne .Kind "home" -}}
   {{- $scratch.Add "crumbs" .Site.Home -}}
 {{- end -}}
-
 {{- template "breadcrumbs" ( dict "Config" $config "Scratch" $scratch ) -}}
