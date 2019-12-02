@@ -14,6 +14,11 @@
         </a>
       </li>
     {{- end -}}
+    {{ range $.Site.Home.AllTranslations }}
+      {{ if ne $.Site.Language.Lang .Language.Lang }}
+        <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+      {{ end }}
+    {{ end }}
     </ul>
   </div>
 </nav>
