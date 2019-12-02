@@ -1,9 +1,9 @@
 [author]
 one = "作者"
-other = "作者们"
+other = "作者們"
 
 [authorsAvatar]
-other = "{{ .Author }}的头像"
+other = "{{ .Author }}的頭像"
 
 [by]
 other = "by"
@@ -12,91 +12,91 @@ other = "by"
 other = "取消"
 
 [cancelComment]
-other = "取消评论"
+other = "取消評論"
 
 [category]
-one = "分类"
-other = "分类"
+one = "分類"
+other = "分類"
 
 [comment]
-other = "评论"
+other = "評論"
 
 [commentSubmissionErrorMessage]
-other = "发生错误。无法提交您的评论。请再试一次。谢谢你！"
+other = "發生錯誤。無法提交您的評論。請再試一次！"
 
 [commentSubmissionErrorTitle]
 other = "啊，抱歉！"
 
 [commentSubmissionSuccessMessage]
-other = "您的评论已提交。它不久后将会出现在该页面！"
+other = "您的評論已提交。它不久後將會出現在該頁面！"
 
 [commentSubmissionSuccessTitle]
-other = "谢谢你！"
+other = "謝謝你！"
 
 [commentsOnEntry]
-one = "只有{{ .Count }}评论了{{ .Title }}"
-other = "{{ .Count }}评论了{{ .Title }}"
+one = "只有{{ .Count }}評論了{{ .Title }}"
+other = "{{ .Count }}評論了{{ .Title }}"
 
 [contactViaEmail]
-other = "通过邮件联系"
+other = "Email"
 
 [currentPage]
-other = "当前页"
+other = "當前頁"
 
 [email]
-other = "邮件"
+other = "郵件"
 
 [gopher]
 other = "Gopher"
 
 [goHome]
-other = "去主页..."
+other = "去主頁..."
 
 [leaveAComment]
-other = "发表评论"
+other = "發表評論"
 
 [mainMenu]
-other = "主菜单"
+other = "主菜單"
 
 [name]
 other = "名字"
 
 [next]
-other = "下一个"
+other = "下一個"
 
 [nextPage]
-other = "下一页"
+other = "下一頁"
 
 [nextPost]
 other = "下一篇文章"
 
 [noTerm]
-other = "一个{{ .Term }}也没有!"
+other = "一個{{ .Term }}也沒有!"
 
 [ok]
 other = "OK"
 
 [openAccountInNewTab]
-other = "在新标签打开{{ .Platform }}的账户"
+other = "在新標籤打開{{ .Platform }}的賬戶"
 
 [page]
-other = "页面"
+other = "頁面"
 
 [previous]
-other = "上一个"
+other = "上一個"
 
 [previousPage]
-other = "上一页"
+other = "上一頁"
 
 [previousPost]
 other = "上一篇文章"
 
 [postedOn]
-other = "发布"
+other = "發布"
 
 [readingTime]
-one = "需要一分钟读完"
-other = "需要{{ .Count }}分钟读完"
+one = "需要一分鐘讀完"
+other = "需要{{ .Count }}分鐘讀完"
 
 [recentPosts]
 other = "最近文章"
@@ -108,36 +108,48 @@ other = "回复"
 other = "回复{{ .Author }}"
 
 [says]
-other = "言论"
+other = "言論"
+
+[search]
+other = "搜尋"
+
+[searchResultEmpty]
+other = "找不到任何文章!"
 
 [series]
 one = "系列"
 other = "系列"
 
 [sidebarMenu]
-other = "侧边菜单"
+other = "側邊菜單"
 
 [skipToContent]
 other = "跳到文章"
 
 [skipToMainMenu]
-other = "跳到主页"
+other = "跳到主頁"
 
 [socialMenu]
-other = "社交菜单"
+other = "社交"
+
+[home]
+other = "主頁"
 
 [submitComment]
-other = "评论"
+other = "評論"
 
 [tableOfContents]
-other = "内容目录"
+other = "內容目錄"
 
 [tag]
-one = "标签"
-other = "标签"
+one = "標籤"
+other = "標籤"
 
 [toggleSidebar]
-other = "切换侧边栏"
+other = "切換側邊欄"
 
 [website]
-other = "网站"
+other = "網站"
+
+[hoe]
+other = "網站"

@@ -153,3 +153,6 @@ other = "Toggle Sidebar"
 
 [website]
 other = "Website"
+
+[home]
+other = "Home"
