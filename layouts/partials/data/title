@@ -22,6 +22,6 @@
   {{- if .Params.authors -}}
     {{ $title }} {{ $sep }} {{ partial "data/author/displayName" . }}
   {{- else -}}
-    {{ $title }} {{ $sep }} {{ $siteTitle }}
+    {{- .Parent.LinkTitle -}} : {{ $title }} {{ $sep }} {{ $siteTitle }}
   {{- end -}}
 {{- end -}}

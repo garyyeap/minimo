@@ -1,8 +1,10 @@
+{{ $sep := ": " }}
+
 <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
       <h1 class='title'>
-        {{- .Title -}}
+        {{- .Parent.LinkTitle -}}{{ $sep }}{{- .Title -}}
       </h1>
       {{ partial "header/description" . }}
     </div>
